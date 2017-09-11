@@ -14,9 +14,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text=""
-        android:hint="Ingresa Numeros Separados Por un espacio"/>
+        android:hint="Ingresa Numeros Separados Por un espacio"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:text="" />
 
     <Button
         android:id="@+id/ordenar"
